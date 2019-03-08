@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*分类页面样式表*/
+table{empty-cells:show;border-collapse:collapse}
+.mauto{width:1200px;margin:0 auto;}
+.category_bar{width:100%;padding:10px 0;}
+.oh{ overflow:hidden}
+.fl{ float:left}
+/*list-right-nav*/
+.list-right-nav{ clear:both;width:1198px;background:#f9f9f9;border:solid 1px #f2f2f2;margin:0 auto;}
+.list-right-nav ul{ padding:0 20px; overflow: hidden;}
+.list-right-nav li{ border-bottom:1px solid #f2f2f2; padding: 8px 0}
+.list-right-nav li a{ display:inline-block; padding:0 10px;}
+.list-right-nav a.sel{ background:#fff6e7; border:2px solid #690; line-height:20px;}
+/*sort*/
+.sort{clear:both;width:1198px;background:#f8f8f8;border:solid 1px #e2e2e2;height:40px;margin:10px auto;}
+.sort ul li{float:left;position:relative;height:40px;line-height:40px;padding:0 20px;cursor:pointer;border-right:solid 1px #e2e2e2;}
+.hover_sort{background:#fff;color:#ff7300;}
+.sort ul li.now_sort{background:#ff7300;color:#fff;}
+.sort ul li i{position:absolute;width:9px;height:12px;z-index:1;display:block;top:14px;right:6px;background-position:-473px -108px;overflow:hidden;}
+.sort ul li.hover_sort i{background-position:-482px -108px;}
+.sort ul li.now_sort i{background-position:-491px -121px;}
+.sort ul li.now_sort i.down{background-position:-491px -108px;}
+/*list_main*/
+.main_content ul,.list_main ul{ width: 1220px}
+.main_content ul li,.list_main ul li{float:left;display:inline;background:#fff;width:299px;height:338px;font-size:14px;border-right:solid 1px #e2e2e2; position: relative; overflow: hidden;}
+.main_content ul li dl,.list_main ul li dl{margin:30px 34px;}
+.main_content ul li dt,.list_main ul li dt{ position: absolute; bottom: 15px; width: 230px; height: 230px;}
+.main_content ul li dt img,.list_main ul li dt img{ width: 230px; height: 230px;}
+/*list_main*/
+.list_main{clear:both;width:1198px;margin:0 auto;position:relative; border: 1px solid #e2e2e2; overflow: hidden;}
+.list_main ul li{ border-bottom: 1px solid #e2e2e2; height: 358px}
+.list_main ul li dl{ margin-top: 250px}
+.list_main ul li dt{ top: 20px; }
+/*flip*/
+.flip{clear:both;margin:20px auto; width:650px;height:35px;+height:50px;text-align:center;}
+.flip span{ display:block; height:30px; line-height:30px; float:left; margin-right:5px;}
+.flip a{background:#fbfbfb;border:solid 1px #ccc;color:#666;padding:0 12px;height:30px;display:block;line-height:30px;margin-right:5px;position:relative;float:left;border-radius:3px; _display:inline-block;}
+.flip li{ float: left;}
+.flip li a:hover{background:#ff6500;border:solid 1px #dc4f53;color:#fff;}
+.flip li.on{background:#ff6500;border:solid 1px #dc4f53;color:#fff;padding:0 12px;height:30px;display:block;line-height:30px;margin-right:5px;position:relative;float:left;border-radius:3px;}
+.flip .flipi{background:#fbfbfb;border:solid 1px #ccc;color:#333;width:30px;padding:0 5px;height:30px;+margin-top:-1px;border-radius:3px;}
+.flipbtn{background:#fbfbfb;border:solid 1px #ccc;color:#333;width:50px;height:32px;cursor:pointer;border-radius:3px;}
+.flip .onpagebtn{background:#ff6500;border:solid 1px #dc4f53;color:#fff;}
+/*other*/
+.other{ clear:both; width:1198px; margin:10px auto 0 auto; min-height:1000px;background:#fff; border:solid 1px #eee;}
+.other_tit{line-height:40px;text-align:center;font-weight:bold;font-size:16px;margin:0 20px;border-bottom:solid 1px #eee;}
+.other_main{ margin:20px 50px; line-height:30px;}
+.other_list ul{margin:0 20px;}
+.other_list ul li{ width:100%; display:block;}
+.other_list ul li a{display:block;border-bottom:dashed 1px #ddd; height:40px; line-height:40px;text-indent:10px; white-space:nowrap; text-overflow:ellipsis;  overflow:hidden;}
+.other_list ul li a:hover{ background:#f8f8f8}
+
+.clear_fix:after { /*after：在该标签的紧挨下一个添加标签或内容*/
+    /*专门清除浮动后的影响，如无高度问题，如其他块级元素也浮动问题*/
+    content: '';    /*与after配套，指明内容是什么*/
+    display: block;  /*模拟了一个块级标签*/
+    clear: both; /*该标签用作清除浮动，使得不影响其他标签，因为一标签开启浮动，紧挨的标签也会浮动*/
+}

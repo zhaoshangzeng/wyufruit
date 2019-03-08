@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+/*login*/
+.login_main{position:relative;z-index: 4;width: 1158px; background: #fff;border:1px solid #ddd;padding: 20px;overflow: hidden;}
+.login_banner{}
+.login_form {position: relative;z-index: 4;width: 510px; padding:30px 20px 80px; margin:0 auto; }
+.login_form .login_box{ width:606px; margin:0 auto}
+.login_form .login_box h1 {font:300 20px '微软雅黑';height: 27px; line-height: 27px;top: -5px;float: left;color: #666;}
+.login_form .msg_warn {position: relative;background:#fff6d2;color: #666; text-align:center;border: 1px solid #ffe57d;padding: 3px 10px; margin:10px 80px;line-height: 18px;height: 18px}
+.login_form .regist_link a{color:#b61d1d; font-size:14px}
+.login_form .login_box .login_btn {border: 1px solid #d85600;margin: 0 auto;height: 37px;position: relative}
+.login_form .login_box .login_btn input.btn_img {border: 1px solid #ff8330;display: block;width:304px;background: #f60;height:37px;color:#fff;font:300 20px/37px '微软雅黑'; text-decoration:none; text-align:center}
+
+.form .item {position: relative;margin-bottom: 20px;z-index: 1}
+.form .item_fore1,.form .item_fore2 {border: 1px solid #bdbdbd;height: 38px;width: 304px}
+.form .item .login_label {position: absolute;z-index: 3;top: 0;left: 0;width: 38px;height: 38px;border-right: 1px solid #bdbdbd;background: url(../images/login_icon.png) no-repeat}
+.form .item .name_label { background-position: 0 0}
+.form .item .pwd_label {background-position: -48px 0}
+.form .itxt { line-height: 18px;height: 18px;border: 0;padding: 10px 0 10px 50px;width: 254px;float: none;overflow: hidden;font-size: 14px;*margin: -1px 0 0}
+.form #ckbRememberLogin,.form .jdradio {float: none;vertical-align: middle;_vertical-align: -1px;margin: 0 3px 0 0;padding: 0}
+/*register*/
+.register_main{position:relative;width:1200px;height:517px; background:#fff;margin:0 auto}
+.register_form{position:relative;z-index: 4;width: 1158px; height:475px;background: #fff;border:1px solid #ddd;padding: 20px;overflow: visible}
+.register_form .register_box h1 {font:300 20px '微软雅黑';height: 27px; line-height: 27px;top: -5px;float: left;color: #666;}
+.register_form .msg_warn {position: relative;background: #fff6d2;color: #666;border: 1px solid #ffe57d;padding: 3px 10px 3px 40px; margin:10px 0;line-height: 18px;height: 18px}
+.register_form .regist_link a{color:#b61d1d; font-size:14px}
+.register_form .register_box .register_btn {border: 1px solid #d85600;margin: 0 auto;height: 37px;position: relative}
+.register_form .register_box .register_btn .btn_img {border: 1px solid #ff8330;display: block;width:304px;background: #f60;height:37px;color:#fff;font:300 20px/37px '微软雅黑'; text-decoration:none; text-align:center}
+.apply-main{ padding:50px; font-size: 14px}
+.apply-main li{ float: left; padding: 10px 0; line-height:38px; width: 100%}
+.apply-main li span{ float: left}
+.apply-main li span.appt{ width: 100px; text-align: right; padding: 0 5px ;display:block;color:#fff;}
+.apply-main li span.appt2{ width: 100px; text-align: right; padding: 0 5px ;}
+.apply-main li span.apptCG{ width: 100px; text-align: center; padding: 0 5px ;}
+.apply-main li span.pt{ font-size: 13px; color: #555; padding: 0 10px}
+.apply-main li span.pt2{ padding: 0 30px;display:block;color:#fff;}
+.apply-main li span.pt_red{font-size: 13px; color: red; padding: 0 10px}
+.apply-main li span.pt3{ padding: 0 30px;}
+.apply-main li span b.ftx04{margin-right:5px; color:#f00}
+.apply-main li a.green{ color:#00fAA0; cursor: pointer}
+.apply-main li a.blue{ color:#100bf4; cursor: pointer}
+.apply-main li span input.odbtn{border: 1px solid #d85600;display: block;width:312px;background: #f60;line-height:37px;color:#fff;font:300 20px/37px '微软雅黑'; text-decoration:none; text-align:center; cursor: pointer}
+input.odt{ border: 1px solid #ddd; height:38px; line-height:38px; width:300px; padding:0 5px; background: #f8fff0;}
+input.ipt_w{ width: 100px}
+input.btn_n{ background: #f5f5f5; border-color: #e2e2e2; height: 40px; cursor: pointer;}
+/*feedback*/
+.feedback{ padding:50px; font-size: 14px}
+.feedback li{ float: left; padding: 10px 0; line-height:38px; width: 100%}
+.feedback li span{ float:left; width:50px; padding-left:20px }
+.feedback li input{ float:left; border: 1px solid #ddd; height:38px; line-height:38px; width:180px; padding:0 5px; background: #f8fff0;}
+.feedback li input.w2{ width:442px}
+.feedback li textarea{ padding:5px; line-height:28px; border: 1px solid #ddd;}
+.feedback li input.odbtn{border: 1px solid #d85600;display: block;width:160px;background: #f60;line-height:37px;color:#fff;font:300 20px/37px '微软雅黑'; text-decoration:none; text-align:center}
+.box_bg{ background-image:url(../images/box_bg.jpg); background-repeat:no-repeat; background-position:right top}
+/*protocol*/
+.protocol{ position: absolute; z-index:9999; left:50%; margin-left:-500px; _margin-left:-520px; top:197px; _top:198px; width:1004px; height:510px; border:3px solid #369; overflow:hidden; background:#fff; border:3px solid rgba(0,0,0,0); -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4); -moz-box-shadow:0 0 10px rgba(0,0,0,0.4); box-shadow:0 0 10px rgba(0,0,0,0.4); display:none;}
+.protocol h2{ font:300 20px/50px '微软雅黑'; text-align:center; border-bottom:1px solid #eee; margin-bottom:20px}
+.protocol span a{ margin:20px auto; text-align:center; width:120px; line-height:36px; background:#f60; color:#fff; display:block}
+.protocol_text{width:884px; height:280px; line-height:2em; color:#444; padding:10px 50px 50px; overflow-y:scroll;}
+.protocol_text p{ line-height:24px; padding:5px 0; text-indent:2em}
